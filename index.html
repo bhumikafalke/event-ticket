@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket</title>
+    <style>
+        @font-face {
+            font-family: 'Digital-7 Mono Italic';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Digital-7 Mono Italic'), url('digital-7 (mono italic).woff') format('woff');
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container-event {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-container {
+            padding: 20px;
+            background-color: #eaf3fa;
+            border: 2px solid #737373;
+            border-bottom: dashed #539dd5;
+            border-top: dashed #539dd5;
+            border-right: none;
+            box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .event-details {
+            margin-bottom: 15px;
+        }
+
+        .ticket-logo {
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-bottom: 0;
+            padding: 20px;
+            padding-bottom: 0;
+            padding-top: 5px;
+        }
+
+        .ticket-no {
+            font-family: "Digital-7 Mono Italic";
+            font-size: 20px;
+        }
+
+        .conference-logo {
+            width: 25px;
+            margin-bottom: 0;
+        }
+
+        /* Responsive*/
+        /*tablet*/
+
+        @media only screen and (max-width: 768px) {
+            .container-event {
+                margin: 20px auto;
+                padding: 10px;
+            }
+            .info-container {
+                padding: 10px;
+            }
+            .ticket-logo{
+                width: 80px;
+                height: 80px;
+                margin-left: 20px;
+            }
+        }
+ /*tablet*/
+        @media only screen and (max-width: 480px) {
+            .container-event {
+                margin: 10px auto;
+                padding: 5px;
+            }
+            .info-container {
+                padding: 5px;
+            }
+            .ticket-logo {
+                width: 60px;
+                height: 60px;
+                margin-left: 10px;
+            
+            }
+        }
+ /*laptop*/
+        @media only screen and (min-width: 769px) and (max-width: 1024px) {
+            .container-event {
+                margin: 30px auto;
+                padding: 20px;
+            }
+            .info-container {
+                padding: 20px;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-event">
+        <div class="info-container">
+            <img src="c:\Users\bhumi\OneDrive\Desktop\collegelogo.jpeg" alt="College Logo" class="ticket-logo">
+            <h2 class="event-details">Event Name: TNP Event</h2>
+            <p class="event-details">Date: 25th DEC 2024</p>
+            <p class="event-details">Time: 10:00 AM - 4:00 PM</p>
+            <p class="event-details">Venue: BDCOE Auditorium</p>
+            <h2 class="event-details">Ticket Information <img src="conference.png" class="conference-logo" alt="eventlogo"/></h2>
+            <p class="ticket-no">Ticket ID: 698765</p>
+            <p class="event-details">Ticket Type: Golden</p>
+            <p class="event-details">Price: ₹500</p>
+            <p class="event-details">Issued by: Bhumika Falke</p>
+            <p class="event-details">Contact: principle.bdce@gmail.com 9509876544</p>
+        </div>
+    </div>
+</body>
+</html>
